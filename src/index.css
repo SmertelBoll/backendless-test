@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+table {
+  border-collapse: collapse; /* Зближуємо границі комірок */
+  width: 50%; /* Задаємо ширину таблиці */
+}
+table,
+th,
+td {
+  border: 1px solid black; /* Додаємо границі для таблиці та її комірок */
+  text-align: center; /* Вирівнюємо текст по центру */
+  padding: 10px; /* Додаємо внутрішній відступ для комірок */
 }
